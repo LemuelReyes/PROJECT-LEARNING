@@ -1,0 +1,79 @@
+<!DOCtype html>
+
+<html>
+<head>
+  <title>CODEPLAYER</title>
+
+  <!-- CSS and UTF -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta charset="utf-8" />
+
+  <!-- JQUERY BASE, JQUERY UI, JQUERY CSS-->
+  <script type="text/javascript" src="javascript/jquery-ui/jquery/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/
+libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <!-- META TAGS -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!--menu bar div starts -->
+    <div class="menu-bar">
+      <div class="header-title clearfix">
+        CODE.GENERATOR
+      </div>
+      <div class="button-div">
+        <button class="run-button">Run</button>
+      </div>
+
+      <ul class="toggles">
+        <li class="toggle selected">HTML</li>
+        <li class="toggle">CSS</li>
+        <li class="toggle">JS</li>
+        <li class="toggle selected" style="border:none">Result</li>
+      </ul>
+
+    </div> <!-- end of menu bar div -->
+
+    <div class="clear"></div>
+
+<!-- code container section starts -->
+
+  <!-- <div class="code-container" id="html-container">
+    <div class="code-label">HTML</div>
+      <textarea>Example code</textarea>
+  </div>
+
+  <div class="code-container" id="css-container">
+    <div class="code-label">CSS</div>
+      <textarea>Example code</textarea>
+  </div>
+
+  <div class="code-container" id="js-container">
+    <div class="code-label">JS</div>
+      <textarea>Example code</textarea>
+  </div>
+
+  <div class="code-container" id="result-container">
+    <div class="code-label">Result</div>
+      <iframe></iframe>
+  </div> -->
+
+
+
+  </div> <!-- wrapper div ends -->
+</body>
+
+<script>
+$(".toggle").click(function() {
+
+  $(this).toggleClass("selected");
+
+});
+
+</script>
+</html>

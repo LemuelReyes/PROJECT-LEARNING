@@ -1,0 +1,142 @@
+.wrapper {
+  overflow:hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* Clear fixes */
+
+.clear {
+  clear:both;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* JQUERY UI PAGE */
+
+/* draggable-section */
+
+.draggable-section, .resizable-section, .sortable-section, .accordion-section  {
+  border: 1px solid grey;
+}
+
+#square {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  float: left;
+}
+
+.target {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  float: right;
+  margin-bottom: 50px;
+}
+
+/* resizable-section */
+
+.resizable {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  border-radius: 107px;
+  margin-top: 10px;
+}
+
+/* PROJECT CODEPLAYER */
+
+/* menu bar */
+.menu-bar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid grey;
+}
+
+.header-title {
+  padding: 1em 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  float: left;
+}
+
+.button-div {
+  padding: 20px;
+  float: right;
+}
+
+.run-button {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.toggles {
+  list-style: none;
+  margin: 0 auto;
+  width: 18vw;
+  height: 6vh;
+  border-radius: 5px;
+  padding: 0;
+  position: relative;
+  top: 0.8em;
+}
+
+.toggles li {
+  float: left;
+  padding: 0.5em 0.7em;
+}
+
+.toggle:hover {
+  background-color: grey;
+}
+/* changes toggle buttons and their color when selected*/
+
+.selected {
+background-color: grey;
+}
+
+/* menu bar ends */
+
+/* new section */
+
+/* .code-container {
+  height: 90vh;
+  width: 50vw;
+  float: left;
+}
+
+.code-container textarea {
+  height: 90vh;
+  width: 50vw;
+  border-right: 1px solid grey;
+}
+
+.code-label {
+  position: absolute;
+  margin-left: 46vw;
+  margin-top: 1vh;
+}
+
+#css-container, #js-container {
+  display: none;
+}
+
+ iframe {
+  height: 90vh;
+  position: relative;
+  border: 1px solid black;
+} */
